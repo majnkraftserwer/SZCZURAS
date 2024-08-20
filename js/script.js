@@ -4,7 +4,7 @@ document.getElementById('searchForm').addEventListener('submit', function(e) {
     const resultsDiv = document.getElementById('results');
     resultsDiv.innerHTML = '<h2>Wyniki wyszukiwania:</h2>';
 
-    const files = ['txt/file1.txt', 'txt/file2.txt', 'txt/file3.txt'];
+    const files = ['txt/file1.txt', ];
 
     files.forEach(file => {
         fetch(file)
